@@ -1,0 +1,11 @@
+name: runner-workflow
+
+on: push
+
+jobs:
+  runner-workflow:
+   name: runner-workflow
+   runs-on: ubuntu-latest
+   steps:
+     - name: get Os ubuntu name
+       run: echo "Os name is ${{ runner.os }}"
