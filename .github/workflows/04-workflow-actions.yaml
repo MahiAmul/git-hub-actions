@@ -12,5 +12,5 @@ jobs:
       - name: Print folder
         run: |
           cd /home/runner/work/git-hub-actions/git-hub-actions
-          ls -l
+          ls -la
       
