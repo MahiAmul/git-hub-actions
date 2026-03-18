@@ -16,8 +16,3 @@ jobs:
       - name: Install dependencies
         run: npm ci
         working-directory: 04-using-actions/my-app
-      - name: Print folder
-        run: |
-          cd /home/runner/work/git-hub-actions/git-hub-actions/.github/04-using-actions
-          ls -la
-      
