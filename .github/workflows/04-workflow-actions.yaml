@@ -9,5 +9,8 @@ jobs:
     steps:
       - name: checkout code
         uses: actions/checkout@v3
-      - name: print folder
-        run : cd /home/runner/work/git-hub-actions/git-hub-actions ls-l
+      - name: Print folder
+        run: |
+          cd /home/runner/work/git-hub-actions/git-hub-actions
+          ls -l
+      
