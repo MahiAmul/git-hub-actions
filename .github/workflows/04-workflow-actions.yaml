@@ -19,4 +19,4 @@ jobs:
           ls -l
       - name: Install dependencies
         run: npm install
-        working-directory: /home/runner/work/git-hub-actions/.github/04-using-actions/my-app
+        working-directory: /home/runner/work/git-hub-actions/git-hub-actions/.github/04-using-actions/my-app
