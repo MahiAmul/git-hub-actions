@@ -11,6 +11,6 @@ jobs:
         uses: actions/checkout@v3
       - name: Print folder
         run: |
-          cd /home/runner/work/git-hub-actions/git-hub-actions
+          cd /home/runner/work/git-hub-actions/
           ls -la
       
